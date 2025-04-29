@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\BloodDonationbd.props" />
+</Project>

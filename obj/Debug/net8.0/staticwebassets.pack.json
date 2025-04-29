@@ -1,0 +1,413 @@
+{
+  "Files": [
+    {
+      "Id": "H:\\bloodDMbd\\BloodDonationbd\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BloodDonationbd.bundle.scp.css",
+      "PackagePath": "staticwebassets\\BloodDonationbd.bundle.scp.css"
+    },
+    {
+      "Id": "H:\\bloodDMbd\\BloodDonationbd\\wwwroot\\css\\Image\\Screenshot (273).png",
+      "PackagePath": "staticwebassets\\css\\Image\\Screenshot (273).png"
+    },
+    {
+      "Id": "H:\\bloodDMbd\\BloodDonationbd\\wwwroot\\css\\Image\\find_user.png",
+      "PackagePath": "staticwebassets\\css\\Image\\find_user.png"
+    },
+    {
+      "Id": "H:\\bloodDMbd\\BloodDonationbd\\wwwroot\\css\\account.css",
+      "PackagePath": "staticwebassets\\css\\account.css"
+    },
+    {
+      "Id": "H:\\bloodDMbd\\BloodDonationbd\\wwwroot\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css"
+    },
+    {
+      "Id": "H:\\bloodDMbd\\BloodDonationbd\\wwwroot\\css\\custom.css",
+      "PackagePath": "staticwebassets\\css\\custom.css"
+    },
+    {
+      "Id": "H:\\bloodDMbd\\BloodDonationbd\\wwwroot\\css\\font-awesome.css",
+      "PackagePath": "staticwebassets\\css\\font-awesome.css"
+    },
+    {
+      "Id": "H:\\bloodDMbd\\BloodDonationbd\\wwwroot\\css\\fontawesome-webfontba72.eot",
+      "PackagePath": "staticwebassets\\css\\fontawesome-webfontba72.eot"
+    },
+    {
+      "Id": "H:\\bloodDMbd\\BloodDonationbd\\wwwroot\\css\\fontawesome-webfontba72.ttf",
+      "PackagePath": "staticwebassets\\css\\fontawesome-webfontba72.ttf"
+    },
+    {
+      "Id": "H:\\bloodDMbd\\BloodDonationbd\\wwwroot\\css\\fontawesome-webfontba72.woff",
+      "PackagePath": "staticwebassets\\css\\fontawesome-webfontba72.woff"
+    },
+    {
+      "Id": "H:\\bloodDMbd\\BloodDonationbd\\wwwroot\\css\\fontawesome-webfontd41d.eot",
+      "PackagePath": "staticwebassets\\css\\fontawesome-webfontd41d.eot"
+    },
+    {
+      "Id": "H:\\bloodDMbd\\BloodDonationbd\\wwwroot\\css\\glyphicons-halflings-regular.eot",
+      "PackagePath": "staticwebassets\\css\\glyphicons-halflings-regular.eot"
+    },
+    {
+      "Id": "H:\\bloodDMbd\\BloodDonationbd\\wwwroot\\css\\glyphicons-halflings-regular.ttf",
+      "PackagePath": "staticwebassets\\css\\glyphicons-halflings-regular.ttf"
+    },
+    {
+      "Id": "H:\\bloodDMbd\\BloodDonationbd\\wwwroot\\css\\glyphicons-halflings-regular.woff",
+      "PackagePath": "staticwebassets\\css\\glyphicons-halflings-regular.woff"
+    },
+    {
+      "Id": "H:\\bloodDMbd\\BloodDonationbd\\wwwroot\\css\\glyphicons-halflings-regulard41d.eot",
+      "PackagePath": "staticwebassets\\css\\glyphicons-halflings-regulard41d.eot"
+    },
+    {
+      "Id": "H:\\bloodDMbd\\BloodDonationbd\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "H:\\bloodDMbd\\BloodDonationbd\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "H:\\bloodDMbd\\BloodDonationbd\\wwwroot\\images\\0b44a334-a167-4446-bb4f-e7c866a8618b.jpeg",
+      "PackagePath": "staticwebassets\\images\\0b44a334-a167-4446-bb4f-e7c866a8618b.jpeg"
+    },
+    {
+      "Id": "H:\\bloodDMbd\\BloodDonationbd\\wwwroot\\images\\11c5c817-6fff-451f-8c11-6b8dba2456e7.jpg",
+      "PackagePath": "staticwebassets\\images\\11c5c817-6fff-451f-8c11-6b8dba2456e7.jpg"
+    },
+    {
+      "Id": "H:\\bloodDMbd\\BloodDonationbd\\wwwroot\\images\\1d7f4a41-f84a-4803-a529-b7f6a2477947.jpeg",
+      "PackagePath": "staticwebassets\\images\\1d7f4a41-f84a-4803-a529-b7f6a2477947.jpeg"
+    },
+    {
+      "Id": "H:\\bloodDMbd\\BloodDonationbd\\wwwroot\\images\\2888b46e-413e-4307-8f4e-88d5050fb325.jpeg",
+      "PackagePath": "staticwebassets\\images\\2888b46e-413e-4307-8f4e-88d5050fb325.jpeg"
+    },
+    {
+      "Id": "H:\\bloodDMbd\\BloodDonationbd\\wwwroot\\images\\390f3454-b0f5-4b38-9f51-d98aeed26cf3.jpeg",
+      "PackagePath": "staticwebassets\\images\\390f3454-b0f5-4b38-9f51-d98aeed26cf3.jpeg"
+    },
+    {
+      "Id": "H:\\bloodDMbd\\BloodDonationbd\\wwwroot\\images\\7a7a37c0-b5b7-4075-b632-628ff3a2a647.jpeg",
+      "PackagePath": "staticwebassets\\images\\7a7a37c0-b5b7-4075-b632-628ff3a2a647.jpeg"
+    },
+    {
+      "Id": "H:\\bloodDMbd\\BloodDonationbd\\wwwroot\\images\\a8bda325-1df0-46fa-81e6-f3cf11afd354.jpg",
+      "PackagePath": "staticwebassets\\images\\a8bda325-1df0-46fa-81e6-f3cf11afd354.jpg"
+    },
+    {
+      "Id": "H:\\bloodDMbd\\BloodDonationbd\\wwwroot\\images\\b3e378f0-98c3-4710-8356-054b90863583.jpeg",
+      "PackagePath": "staticwebassets\\images\\b3e378f0-98c3-4710-8356-054b90863583.jpeg"
+    },
+    {
+      "Id": "H:\\bloodDMbd\\BloodDonationbd\\wwwroot\\images\\cc6335fb-b5f6-417c-bdaf-2b2cfd7cc7aa.jpeg",
+      "PackagePath": "staticwebassets\\images\\cc6335fb-b5f6-417c-bdaf-2b2cfd7cc7aa.jpeg"
+    },
+    {
+      "Id": "H:\\bloodDMbd\\BloodDonationbd\\wwwroot\\images\\cecf99bf-7f36-4497-bc7e-b12ac82d835d.jpg",
+      "PackagePath": "staticwebassets\\images\\cecf99bf-7f36-4497-bc7e-b12ac82d835d.jpg"
+    },
+    {
+      "Id": "H:\\bloodDMbd\\BloodDonationbd\\wwwroot\\images\\d47aeca9-d856-43e9-b40c-93c359b60dd5.jpg",
+      "PackagePath": "staticwebassets\\images\\d47aeca9-d856-43e9-b40c-93c359b60dd5.jpg"
+    },
+    {
+      "Id": "H:\\bloodDMbd\\BloodDonationbd\\wwwroot\\images\\dfd7fd55-a79e-4dc8-be7f-22c939d71c21.jpg",
+      "PackagePath": "staticwebassets\\images\\dfd7fd55-a79e-4dc8-be7f-22c939d71c21.jpg"
+    },
+    {
+      "Id": "H:\\bloodDMbd\\BloodDonationbd\\wwwroot\\js\\JavaScript.js",
+      "PackagePath": "staticwebassets\\js\\JavaScript.js"
+    },
+    {
+      "Id": "H:\\bloodDMbd\\BloodDonationbd\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "H:\\bloodDMbd\\BloodDonationbd\\wwwroot\\js\\custom.js",
+      "PackagePath": "staticwebassets\\js\\custom.js"
+    },
+    {
+      "Id": "H:\\bloodDMbd\\BloodDonationbd\\wwwroot\\js\\dataTables.bootstrap.css",
+      "PackagePath": "staticwebassets\\js\\dataTables.bootstrap.css"
+    },
+    {
+      "Id": "H:\\bloodDMbd\\BloodDonationbd\\wwwroot\\js\\dataTables.bootstrap.js",
+      "PackagePath": "staticwebassets\\js\\dataTables.bootstrap.js"
+    },
+    {
+      "Id": "H:\\bloodDMbd\\BloodDonationbd\\wwwroot\\js\\jquery-1.10.2.js",
+      "PackagePath": "staticwebassets\\js\\jquery-1.10.2.js"
+    },
+    {
+      "Id": "H:\\bloodDMbd\\BloodDonationbd\\wwwroot\\js\\jquery.dataTables.js",
+      "PackagePath": "staticwebassets\\js\\jquery.dataTables.js"
+    },
+    {
+      "Id": "H:\\bloodDMbd\\BloodDonationbd\\wwwroot\\js\\jquery.metisMenu.js",
+      "PackagePath": "staticwebassets\\js\\jquery.metisMenu.js"
+    },
+    {
+      "Id": "H:\\bloodDMbd\\BloodDonationbd\\wwwroot\\js\\morris-0.4.3.min.css",
+      "PackagePath": "staticwebassets\\js\\morris-0.4.3.min.css"
+    },
+    {
+      "Id": "H:\\bloodDMbd\\BloodDonationbd\\wwwroot\\js\\morris.js",
+      "PackagePath": "staticwebassets\\js\\morris.js"
+    },
+    {
+      "Id": "H:\\bloodDMbd\\BloodDonationbd\\wwwroot\\js\\raphael-2.1.0.min.js",
+      "PackagePath": "staticwebassets\\js\\raphael-2.1.0.min.js"
+    },
+    {
+      "Id": "H:\\bloodDMbd\\BloodDonationbd\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "H:\\bloodDMbd\\BloodDonationbd\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "H:\\bloodDMbd\\BloodDonationbd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "H:\\bloodDMbd\\BloodDonationbd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "H:\\bloodDMbd\\BloodDonationbd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "H:\\bloodDMbd\\BloodDonationbd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "H:\\bloodDMbd\\BloodDonationbd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "H:\\bloodDMbd\\BloodDonationbd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "H:\\bloodDMbd\\BloodDonationbd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "H:\\bloodDMbd\\BloodDonationbd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "H:\\bloodDMbd\\BloodDonationbd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "H:\\bloodDMbd\\BloodDonationbd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "H:\\bloodDMbd\\BloodDonationbd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "H:\\bloodDMbd\\BloodDonationbd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "H:\\bloodDMbd\\BloodDonationbd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "H:\\bloodDMbd\\BloodDonationbd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "H:\\bloodDMbd\\BloodDonationbd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "H:\\bloodDMbd\\BloodDonationbd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "H:\\bloodDMbd\\BloodDonationbd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "H:\\bloodDMbd\\BloodDonationbd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "H:\\bloodDMbd\\BloodDonationbd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "H:\\bloodDMbd\\BloodDonationbd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "H:\\bloodDMbd\\BloodDonationbd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "H:\\bloodDMbd\\BloodDonationbd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "H:\\bloodDMbd\\BloodDonationbd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "H:\\bloodDMbd\\BloodDonationbd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "H:\\bloodDMbd\\BloodDonationbd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "H:\\bloodDMbd\\BloodDonationbd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "H:\\bloodDMbd\\BloodDonationbd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "H:\\bloodDMbd\\BloodDonationbd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "H:\\bloodDMbd\\BloodDonationbd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "H:\\bloodDMbd\\BloodDonationbd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "H:\\bloodDMbd\\BloodDonationbd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "H:\\bloodDMbd\\BloodDonationbd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "H:\\bloodDMbd\\BloodDonationbd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "H:\\bloodDMbd\\BloodDonationbd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "H:\\bloodDMbd\\BloodDonationbd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "H:\\bloodDMbd\\BloodDonationbd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "H:\\bloodDMbd\\BloodDonationbd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "H:\\bloodDMbd\\BloodDonationbd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "H:\\bloodDMbd\\BloodDonationbd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "H:\\bloodDMbd\\BloodDonationbd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "H:\\bloodDMbd\\BloodDonationbd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "H:\\bloodDMbd\\BloodDonationbd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "H:\\bloodDMbd\\BloodDonationbd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "H:\\bloodDMbd\\BloodDonationbd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "H:\\bloodDMbd\\BloodDonationbd\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "H:\\bloodDMbd\\BloodDonationbd\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "H:\\bloodDMbd\\BloodDonationbd\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "H:\\bloodDMbd\\BloodDonationbd\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "H:\\bloodDMbd\\BloodDonationbd\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "H:\\bloodDMbd\\BloodDonationbd\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "H:\\bloodDMbd\\BloodDonationbd\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "H:\\bloodDMbd\\BloodDonationbd\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "H:\\bloodDMbd\\BloodDonationbd\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "H:\\bloodDMbd\\BloodDonationbd\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "H:\\bloodDMbd\\BloodDonationbd\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "H:\\bloodDMbd\\BloodDonationbd\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BloodDonationbd.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.BloodDonationbd.props",
+      "PackagePath": "build\\BloodDonationbd.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.BloodDonationbd.props",
+      "PackagePath": "buildMultiTargeting\\BloodDonationbd.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.BloodDonationbd.props",
+      "PackagePath": "buildTransitive\\BloodDonationbd.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

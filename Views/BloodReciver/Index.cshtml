@@ -1,0 +1,256 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="container mt-4"> 
+    <h2 class="text-center">Blood Reciver List</h2>
+
+    <div class="row mb-3">
+        <div class="col-md-6">
+            <input type="text" id="searchInput" class="form-control" placeholder="Search by Name" />
+        </div>
+        <div class="col-md-6 text-end">
+            <button class="btn btn-primary" onclick="showAddModal()">Add New</button>
+        </div>
+    </div>
+
+    <table class="table table-bordered table-bordered table-hover" id="bloodReciverTable">
+        <thead>
+            <tr>
+                <th>SL&</th>
+                <th>Reciver Name</th>
+                <th>Phone</th>
+                <th>Address</th>
+                <th>Country</th>
+                <th>State</th>
+                <th>City</th>
+                <th>CraetedDate</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="bloodReciverModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <form id="bloodReciverForm">
+                <div class="modal-header">
+                    <h5 class="modal-title text-center"> Blood Reciver</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+
+                <div class="modal-body">
+                    <input type="hidden" id="id" />
+
+                    <div class="mb-3">
+                        <label>Full Name</label>
+                        <input type="text" id="reciverName" class="form-control" required />
+                    </div>
+
+                    <div class="mb-3">
+                        <label>Phone</label>
+                        <input type="number" id="phone" class="form-control" required />
+                    </div>
+
+                    <div class="mb-3">
+                        <label>Address</label>
+                        <textarea id="address" class="form-control"></textarea>
+                    </div>
+                    <div class="mb-3">
+                        <label for="country" class="form-label">Division</label>
+                        <select id="country" class="form-select">
+                            <option>Selectd Division Type</option>
+                            <option>Dhaka</option>
+                            <option>Khulna</option>
+                            <option>Rajshahi</option>
+                            <option>Rangpur</option>
+                            <option>Mymensingh</option>
+                            <option>Sylhet</option>
+                            <option>Chattogram</option>
+                            <option>Barisal</option>
+
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label>state</label>
+                        <input type="text" id="state" class="form-control" required />
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="city" class="form-label">District</label>
+                        <select id="city" class="form-select">
+                            <option>Selectd District Type</option>
+                            <option>Dhaka</option>
+                            <option>Bagerhat</option>
+                            <option>Sirajgonj</option>
+                            <option>Dinajpur</option>
+                            <option>Jamalpur</option>
+                            <option>Habigonj</option>
+                            <option>Cumila</option>
+                            <option>Bhola</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label>DateTime</label>
+                        <input type="date" id="craetedOn" class="form-control" />
+                    </div>
+                    
+                </div>
+
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-primary">Save</button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                </div>
+
+            </form>
+        </div>
+    </div>
+</div>
+
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script>
+        $(document).ready(function () {
+            loadBloodRecivers();
+
+            $("#bloodReciverForm").submit(function (e) {
+                e.preventDefault();
+                saveBloodReciver();
+            });
+
+            $("#searchInput").keyup(function () {
+                loadBloodRecivers($(this).val());
+            });
+        });
+
+        function loadBloodRecivers(search = "") {
+            $.get("/BloodReciver/GetAll", { search: search }, function (data) {
+                var rows = "";
+                $.each(data, function (i, item) {
+                    rows += `<tr>
+                                        <td>${item.id}</td>
+                                        <td>${item.reciverName}</td>
+                                        <td>${item.phone}</td>
+                                        <td>${item.address}</td>
+                                        <td>${item.country}</td>
+                                        <td>${item.state}</td>
+                                        <td>${item.city}</td>
+                                        <td>${item.craetedOn}</td>
+                                        <td>
+                                    <button class="btn btn-sm btn-warning" onclick="editBloodReciver(${item.id})">Edit</button>
+                                    <button class="btn btn-sm btn-danger" onclick="deleteBloodReciver(${item.id})">Delete</button>
+                                </td>
+                            </tr>`;
+                });
+                $("#bloodReciverTable tbody").html(rows);
+            });
+        }
+
+        function showAddModal() {
+            $("#id").val('');
+            $("#bloodReciverForm")[0].reset();
+            $("#bloodReciverModal").modal('show');
+        }
+
+        function saveBloodReciver() {
+            var data = {
+                id: $("#id").val(),
+                reciverName: $("#reciverName").val(),
+                phone: $("#phone").val(),
+                address: $("#address").val(),
+                country: $("#country").val(),
+                state: $("#state").val(),
+                city: $("#city").val(),
+                craetedOn: $("#craetedOn").val(),
+            };
+
+            var url = data.id ? '/BloodReciver/Update' : '/BloodReciver/Create';
+
+            $.post(url, data, function (res) {
+                if (res.success) {
+                    $("#bloodReciverModal").modal('hide');
+                    loadBloodRecivers();
+                    Swal.fire({
+                        icon: 'success',
+                        title: data.id ? 'Updated!' : 'Saved!',
+                        text: data.id ? 'Blood Reciver updated successfully!' : 'Blood Reciver saved successfully!',
+                        timer: 2000,
+                        showConfirmButton: false
+                    });
+                } else {
+                    Swal.fire({
+                        icon: 'error',
+                        title: 'Error!',
+                        text: 'Something went wrong.',
+                        timer: 2000,
+                        showConfirmButton: false
+                    });
+                }
+            });
+        }
+
+        function editBloodReciver(id) {
+            $.get("/BloodReciver/GetAll", function (data) {
+                var bloodReciver = data.find(x => x.id == id);
+                if (bloodReciver) {
+                    $("#id").val(bloodReciver.id);
+                    $("#reciverName").val(bloodReciver.reciverName);
+                    $("#phone").val(bloodReciver.phone);
+                    $("#address").val(bloodReciver.address);
+                    $("#country").val(bloodReciver.country);
+                    $("#state").val(bloodReciver.state);
+                    $("#city").val(bloodReciver.city);
+                    $("#craetedOn").val(bloodReciver.craetedOn);
+                    $("#bloodReciverModal").modal('show');
+
+                }
+            });
+        }
+
+        function deleteBloodReciver(id) {
+            Swal.fire({
+                title: 'Are you sure?',
+                text: "You won't be able to revert this!",
+                icon: 'warning',
+                showCancelButton: true,
+                confirmButtonColor: '#3085d6',
+                cancelButtonColor: '#d33',
+                confirmButtonText: 'Yes, delete it!'
+            }).then((result) => {
+                if (result.isConfirmed) {
+                    $.post("/BloodReciver/Delete", { id: id }, function (res) {
+                        if (res.success) {
+                            loadBloodRecivers();
+                            Swal.fire({
+                                icon: 'success',
+                                title: 'Deleted!',
+                                text: 'Blood Reciver has been deleted.',
+                                timer: 2000,
+                                showConfirmButton: false
+                            });
+                        } else {
+                            Swal.fire({
+                                icon: 'error',
+                                title: 'Error!',
+                                text: 'Failed to delete.',
+                                timer: 2000,
+                                showConfirmButton: false
+                            });
+                        }
+                    });
+                }
+            });
+        }
+    </script>
+}
+
+

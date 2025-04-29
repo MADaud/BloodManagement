@@ -1,0 +1,159 @@
+﻿@model IEnumerable<BloodDonationbd.Models.Tbl_Donor>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<br />
+<div class="container">
+    <div class="row">
+        <div class="col-md-2">
+        </div>
+        <div class="col-md-8">
+            <h1 class="text-center mb-3">Donor All List Item </h1>
+
+            <div class="col mb-3">
+                <button class="btn btn-primary" onclick="openCreateModal()">Add Donor</button>
+            </div>
+            <table class="table table-responsive table-bordered table-hover">
+                <thead>
+                    <tr>
+                        <th>SL&</th>
+                        <th>Full Name</th>
+                        <th>E-Mail</th>
+                        <th>Phone-Number</th>
+                        <th>BloodGruop</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var donor in Model)
+                    {
+                        <tr id ="row-@donor.Id">
+
+                            <td>@donor.Id</td>
+                            <td>@donor.Name</td>
+                            <td>@donor.Email</td>
+                            <td>@donor.Phone</td>
+                            <td>@donor.BloodGroup</td>
+                            <td>
+                                <div role="group" class="w-30 btn-group">
+                                    <button class="btn btn-primary" onclick="editDonor(@donor.Id)"><i class="far fa-edit"></i></button>&times;
+                                    <button class="btn btn-danger" onclick="deleteDonor(@donor.Id)"><i class="fas fa-cut"></i></button>
+                                </div>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+        <div class="col-md-2">
+        </div>
+    </div>
+</div>
+<!-- Bootstrap Modal -->
+<div class="modal fade" id="donorModal" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Donor Form</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <input type="hidden" id="donorId">
+                <div class="mb-3">
+                    <label>Name</label>
+                    <input type="text" id="donorName" class="form-control">
+                </div>
+                <div class="mb-3">
+                    <label>Email</label>
+                    <input type="email" id="donorEmail" class="form-control">
+                </div>
+                <div class="mb-3">
+                    <label>Phone-Number</label>
+                    <input type="text" id="donorPhone" class="form-control">
+                </div>
+                <div class="mb-3">
+                    <label for="BloodGroup" class="form-label">Blood Group</label>
+                    <select id="donorBloodGroup" class="form-select">
+                        <option>Selectd Blood Type</option>
+                        <option>A+</option>
+                        <option>A-</option>
+                        <option>B+</option>
+                        <option>B-</option>
+                        <option>O+</option>
+                        <option>O-</option>
+                        <option>AB+</option>
+                        <option>AB-</option>
+                    </select>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-success" onclick="saveDonor()">Save</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- AJAX & SweetAlert -->
+<script>
+    function openCreateModal() {
+        $('#donorId').val('');
+        $('#donorName, #donorEmail, #donorPhone').val('');
+        $('#donorBloodGroup').val('A+');
+        $('#donorModal').modal('show');
+    }
+
+    function saveDonor() {
+        var donor = {
+            Id: $('#donorId').val(),
+            Name: $('#donorName').val(),
+            Email: $('#donorEmail').val(),
+            Phone: $('#donorPhone').val(),
+            BloodGroup: $('#donorBloodGroup').val()
+        };
+
+        var url = donor.Id ? '/Donor_Infor/Update' : '/Donor_Infor/Create';
+
+        $.post(url, donor, function (response) {
+            if (response.success) {
+                Swal.fire("Success", response.message, "success").then(() => location.reload());
+            } else {
+                Swal.fire("Error", response.message, "error");
+            }
+        });
+    }
+
+    function editDonor(id) {
+        $.get('/Donor_Infor/Edit/' + id, function (donor) {
+            $('#donorId').val(donor.id);
+            $('#donorName').val(donor.name);
+            $('#donorEmail').val(donor.email);
+            $('#donorPhone').val(donor.phone);
+            $('#donorBloodGroup').val(donor.bloodGroup);
+            $('#donorModal').modal('show');
+        });
+    }
+
+    function deleteDonor(id) {
+        Swal.fire({
+            title: "Are you sure?",
+            text: "This action cannot be undone!",
+            icon: "warning",
+            showCancelButton: true,
+            confirmButtonText: "Yes, delete it!",
+            cancelButtonText: "Cancel"
+        }).then((result) => {
+            if (result.isConfirmed) {
+                $.post('/Donor_Infor/Delete/' + id, function (response) {
+                    if (response.success) {
+                        Swal.fire("Deleted!", response.message, "success").then(() => location.reload());
+                    } else {
+                        Swal.fire("Error", response.message, "error");
+                    }
+                });
+            }
+        });
+    }
+</script>
